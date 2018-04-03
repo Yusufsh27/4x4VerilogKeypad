@@ -1,0 +1,452 @@
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.xst" -ofn "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 "FinalProject.ngc" FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/ShaikhY77/Desktop/FinalProject/FinalProject.xst" -ofn "C:/Users/ShaikhY77/Desktop/FinalProject/FinalProject.syr" 
+xst -intstyle ise -ifn "C:/Users/ShaikhY77/Desktop/FinalProject/FinalProject.xst" -ofn "C:/Users/ShaikhY77/Desktop/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 FinalProject.ngc FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 
+xst -intstyle ise -ifn "C:/Users/ShaikhY77/Desktop/FinalProject/FinalProject.xst" -ofn "C:/Users/ShaikhY77/Desktop/FinalProject/FinalProject.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board.ucf -p xc6slx9-tqg144-3 FinalProject.ngc FinalProject.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalProject_map.ncd FinalProject.ngd FinalProject.pcf 
+par -w -intstyle ise -ol high -mt off FinalProject_map.ncd FinalProject.ncd FinalProject.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalProject.twx FinalProject.ncd -o FinalProject.twr FinalProject.pcf -ucf board.ucf 
+bitgen -intstyle ise -f FinalProject.ut FinalProject.ncd 

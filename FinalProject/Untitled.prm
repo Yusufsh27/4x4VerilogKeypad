@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "C:\Users\sani\Dropbox\School\College\4.Senior\Spring Semester\CompE470L\Wires - Copy//Untitled" -s 512 -u 0000 "C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/Wires - Copy/iotest.bit" -spi 
+
+PROM C:\Users\sani\Dropbox\School\College\4.Senior\Spring Semester\CompE470L\Wires - Copy\Untitled.prm map: Fri Feb 10 23:37:41 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 02cfd119
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Feb 10 23:36:46 2017 C:/Users/sani/Dropbox/School/College/4.Senior/Spring Semester/CompE470L/Wires - Copy/iotest.bit

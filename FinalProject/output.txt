@@ -1,0 +1,8 @@
+Storage Target: SPI Flash Single FPGA
+4M
+FF
+fpga
+C:\Users\ShaikhY77\Desktop\FinalProject/
+
+MCS
+No

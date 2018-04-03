@@ -1,0 +1,552 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: FinalProject.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FinalProject.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FinalProject"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : FinalProject
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" into library work
+Parsing module <FinalProject>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <FinalProject>.
+WARNING:HDLCompiler:1127 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 66: Assignment to FLAGG ignored, since the identifier is never used
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 193: Signal <AllPins> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 195: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 198: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 201: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 204: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 208: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 211: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 214: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 217: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 221: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 224: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 227: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 230: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 234: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 237: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 240: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 243: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 246: Signal <checkflag> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 247: Signal <DEC_POINT> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v" Line 249: Signal <SEG1> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FinalProject>.
+    Related source file is "C:\Users\ShaikhY77\Desktop\FinalProject\ioTest.v".
+    Found 32-bit register for signal <DisplayCounter>.
+    Found 1-bit register for signal <Columns>.
+    Found 1-bit register for signal <DisplayResults>.
+    Found 1-bit register for signal <Column4>.
+    Found 1-bit register for signal <Column3>.
+    Found 1-bit register for signal <Column2>.
+    Found 1-bit register for signal <Column1>.
+    Found 8-bit register for signal <AllPins>.
+    Found 1-bit register for signal <checkflag>.
+    Found 2-bit register for signal <ColumnState>.
+    Found 8-bit register for signal <IO_SSEG>.
+    Found 32-bit register for signal <ColumnCounter>.
+    Found finite state machine <FSM_0> for signal <ColumnState>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Columns (rising_edge)                          |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit adder for signal <ColumnCounter[31]_GND_1_o_add_3_OUT> created at line 53.
+    Found 32-bit adder for signal <DisplayCounter[31]_GND_1_o_add_4_OUT> created at line 54.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <SEG1<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    WARNING:Xst:2404 -  FFs/Latches <IO_SSEGD<1:1>> (without init value) have a constant value of 0 in block <FinalProject>.
+    WARNING:Xst:2404 -  FFs/Latches <IO_SSEGD<1:3>> (without init value) have a constant value of 1 in block <FinalProject>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  87 D-type flip-flop(s).
+	inferred   8 Latch(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <FinalProject> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 2
+# Registers                                            : 11
+ 1-bit register                                        : 7
+ 32-bit register                                       : 2
+ 8-bit register                                        : 2
+# Latches                                              : 8
+ 1-bit latch                                           : 8
+# Multiplexers                                         : 1
+ 1-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <FinalProject>.
+The following registers are absorbed into counter <DisplayCounter>: 1 register on signal <DisplayCounter>.
+The following registers are absorbed into counter <ColumnCounter>: 1 register on signal <ColumnCounter>.
+Unit <FinalProject> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+# Multiplexers                                         : 1
+ 1-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <ColumnState[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+
+Optimizing unit <FinalProject> ...
+WARNING:Xst:1710 - FF/Latch <SEG1_7> (without init value) has a constant value of 1 in block <FinalProject>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IO_SSEG_7> (without init value) has a constant value of 1 in block <FinalProject>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <SEG1_7> (without init value) has a constant value of 1 in block <FinalProject>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IO_SSEG_7> (without init value) has a constant value of 1 in block <FinalProject>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FinalProject, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 89
+ Flip-Flops                                            : 89
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FinalProject.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 325
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 62
+#      LUT2                        : 66
+#      LUT3                        : 11
+#      LUT4                        : 8
+#      LUT5                        : 12
+#      LUT6                        : 32
+#      MUXCY                       : 62
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 97
+#      FD                          : 81
+#      FDE                         : 8
+#      LD                          : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 38
+#      IBUF                        : 8
+#      OBUF                        : 30
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              89  out of  11440     0%  
+ Number of Slice LUTs:                  197  out of   5720     3%  
+    Number used as Logic:               197  out of   5720     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    202
+   Number with an unused Flip Flop:     113  out of    202    55%  
+   Number with an unused LUT:             5  out of    202     2%  
+   Number of fully used LUT-FF pairs:    84  out of    202    41%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          39
+ Number of bonded IOBs:                  39  out of    102    38%  
+    IOB Flip Flops/Latches:               8
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+_n0112(Mmux__n011211:O)            | NONE(*)(SEG1_5)        | 8     |
+Columns                            | NONE(Column4)          | 15    |
+DisplayResults                     | NONE(IO_SSEG_0)        | 8     |
+M_CLOCK                            | BUFGP                  | 66    |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.154ns (Maximum Frequency: 240.752MHz)
+   Minimum input arrival time before clock: 3.511ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: 5.157ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Columns'
+  Clock period: 1.861ns (frequency: 537.418MHz)
+  Total number of paths / destination ports: 17 / 11
+-------------------------------------------------------------------------
+Delay:               1.861ns (Levels of Logic = 1)
+  Source:            ColumnState_FSM_FFd1 (FF)
+  Destination:       ColumnState_FSM_FFd2 (FF)
+  Source Clock:      Columns rising
+  Destination Clock: Columns rising
+
+  Data Path: ColumnState_FSM_FFd1 to ColumnState_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.447   1.109  ColumnState_FSM_FFd1 (ColumnState_FSM_FFd1)
+     LUT6:I0->O            1   0.203   0.000  ColumnState_FSM_FFd2-In1 (ColumnState_FSM_FFd2-In)
+     FD:D                      0.102          ColumnState_FSM_FFd2
+    ----------------------------------------
+    Total                      1.861ns (0.752ns logic, 1.109ns route)
+                                       (40.4% logic, 59.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'M_CLOCK'
+  Clock period: 4.154ns (frequency: 240.752MHz)
+  Total number of paths / destination ports: 3172 / 66
+-------------------------------------------------------------------------
+Delay:               4.154ns (Levels of Logic = 3)
+  Source:            ColumnCounter_13 (FF)
+  Destination:       ColumnCounter_1 (FF)
+  Source Clock:      M_CLOCK rising
+  Destination Clock: M_CLOCK rising
+
+  Data Path: ColumnCounter_13 to ColumnCounter_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.961  ColumnCounter_13 (ColumnCounter_13)
+     LUT5:I0->O            4   0.203   1.028  ColumnCounter[31]_GND_1_o_equal_6_o<31>2 (ColumnCounter[31]_GND_1_o_equal_6_o<31>1)
+     LUT6:I1->O           16   0.203   1.005  ColumnCounter[31]_GND_1_o_equal_6_o<31>7 (ColumnCounter[31]_GND_1_o_equal_6_o)
+     LUT2:I1->O            1   0.205   0.000  ColumnCounter_1_rstpot (ColumnCounter_1_rstpot)
+     FD:D                      0.102          ColumnCounter_1
+    ----------------------------------------
+    Total                      4.154ns (1.160ns logic, 2.994ns route)
+                                       (27.9% logic, 72.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Columns'
+  Total number of paths / destination ports: 48 / 15
+-------------------------------------------------------------------------
+Offset:              3.511ns (Levels of Logic = 2)
+  Source:            Row1 (PAD)
+  Destination:       AllPins_0 (FF)
+  Destination Clock: Columns rising
+
+  Data Path: Row1 to AllPins_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.962  Row1_IBUF (Row1_IBUF)
+     LUT4:I0->O            8   0.203   0.802  out2 (n0024)
+     FDE:CE                    0.322          AllPins_0
+    ----------------------------------------
+    Total                      3.511ns (1.747ns logic, 1.764ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'DisplayResults'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            IO_SSEG_7 (FF)
+  Destination:       IO_SSEG<7> (PAD)
+  Source Clock:      DisplayResults rising
+
+  Data Path: IO_SSEG_7 to IO_SSEG<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.447   0.579  IO_SSEG_7 (IO_SSEG_7)
+     OBUF:I->O                 2.571          IO_SSEG_7_OBUF (IO_SSEG<7>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Columns'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            Column1 (FF)
+  Destination:       Column1 (PAD)
+  Source Clock:      Columns rising
+
+  Data Path: Column1 to Column1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  Column1 (Column1_OBUF)
+     OBUF:I->O                 2.571          Column1_OBUF (Column1)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               5.157ns (Levels of Logic = 3)
+  Source:            IO_PB<3> (PAD)
+  Destination:       F_LED<3> (PAD)
+
+  Data Path: IO_PB<3> to F_LED<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  IO_PB_3_IBUF (IO_PB_3_IBUF)
+     INV:I->O              1   0.206   0.579  F_LED<3>1_INV_0 (F_LED_3_OBUF)
+     OBUF:I->O                 2.571          F_LED_3_OBUF (F_LED<3>)
+    ----------------------------------------
+    Total                      5.157ns (3.999ns logic, 1.158ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Columns
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Columns        |    1.861|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DisplayResults
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0112         |         |    1.179|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock M_CLOCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+M_CLOCK        |    4.154|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock _n0112
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Columns        |         |         |    5.906|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.66 secs
+ 
+--> 
+
+Total memory usage is 258772 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   35 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

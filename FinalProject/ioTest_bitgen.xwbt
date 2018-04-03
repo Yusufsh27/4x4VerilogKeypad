@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\sani\Dropbox\School\College\4.Senior\Spring Semester\CompE470L\Wires - Copy\ioTest.ncd
+OUTFILE=C:\Users\sani\Dropbox\School\College\4.Senior\Spring Semester\CompE470L\Wires - Copy\ioTest.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\sani\Dropbox\School\College\4.Senior\Spring Semester\CompE470L\Wires - Copy
+LICENSE=WebPack
+USER_INFO=211233193_0_0_535
